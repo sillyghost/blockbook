@@ -50,6 +50,7 @@ import (
 	"github.com/trezor/blockbook/bchain/coins/vipstarcoin"
 	"github.com/trezor/blockbook/bchain/coins/xzc"
 	"github.com/trezor/blockbook/bchain/coins/zec"
+	"github.com/sillyghost/blockbook/bchain/coins/aryacoin"
 	"github.com/trezor/blockbook/common"
 )
 
@@ -77,6 +78,7 @@ func init() {
 	BlockChainFactories["Koto"] = koto.NewKotoRPC
 	BlockChainFactories["Koto Testnet"] = koto.NewKotoRPC
 	BlockChainFactories["Litecoin"] = litecoin.NewLitecoinRPC
+	BlockChainFactories["Aryacoin"] = aryacoin.NewAryacoinRPC
 	BlockChainFactories["Litecoin Testnet"] = litecoin.NewLitecoinRPC
 	BlockChainFactories["Dogecoin"] = dogecoin.NewDogecoinRPC
 	BlockChainFactories["Vertcoin"] = vertcoin.NewVertcoinRPC
