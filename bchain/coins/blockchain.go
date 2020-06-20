@@ -12,6 +12,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/trezor/blockbook/bchain"
 	"github.com/trezor/blockbook/bchain/coins/bch"
+	"github.com/trezor/blockbook/bchain/coins/aryacoin"
 	"github.com/trezor/blockbook/bchain/coins/bellcoin"
 	"github.com/trezor/blockbook/bchain/coins/bitcore"
 	"github.com/trezor/blockbook/bchain/coins/bitzeny"
